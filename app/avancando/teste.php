@@ -1,0 +1,13 @@
+<?php
+
+$array = [
+ 0 => 'um',
+ 1 => 'dois',
+ 2=> 'tres'
+];
+
+foreach ($array as $numeral =>$nomeNumero) {
+    acho "$numeral em português é: $nomeNumero" . PHP_EOL;
+}
+
+echo "Total:" . count($array)  . PHP_EOL;
