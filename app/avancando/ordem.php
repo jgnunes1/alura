@@ -32,5 +32,5 @@ function ordenaNotas(array $nota1, array $nota2): int
 
 
 //usort ordenação do usuário, faz ornderna da nota maior para a menor.
-usort($notas, 'ordenaNotas');
+usort($notas, 'ordenaNotas') . PHP_EOL;
 var_dump($notas);
